@@ -85,9 +85,9 @@ module.exports = (appInfo) => {
       createdAt: 'create_at',
       updatedAt: 'update_at',
     },
-    sync: {
-      alter: false, //表示在应用启动时，自动根据模型定义修改数据库表结构，以保持与模型定义的一致性。
-    },
+    // sync: {
+    //   alter: true, //表示在应用启动时，自动根据模型定义修改数据库表结构，以保持与模型定义的一致性。
+    // },
     dialectOptions: {
       dateStrings: true,
       /**
